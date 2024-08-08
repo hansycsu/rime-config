@@ -1,0 +1,12 @@
+patch:
+  schema_list:
+    - {schema: double_pinyin_flypy}
+  ascii_composer/switch_key/Caps_Lock: noop
+  switcher/hotkeys:
+    - Control+grave
+  switcher/save_options:
+    - full_shape
+    - ascii_punct
+    - zh_tw
+    - zh_cn
+    - zh_trad
